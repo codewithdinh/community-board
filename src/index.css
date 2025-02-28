@@ -1,0 +1,100 @@
+/* Global styles for the html and body elements */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Light blue background */
+}
+
+/* Styles for the main application container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles for the card list container */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Styles for individual cards */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.2s;
+  border: 2px solid #004d40; /* Dark green border */
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Styles for card titles */
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #004d40; /* Dark green color */
+}
+
+/* Styles for card descriptions */
+.card-description {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #00796b; /* Teal color */
+}
+
+/* Styles for card buttons */
+.card-button {
+  background-color: #004d40; /* Dark green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Hover effect for card buttons */
+.card-button:hover {
+  background-color: #00251a; /* Darker green on hover */
+}
+
+/* Styles for card images */
+.card-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Responsive styles for cards on small screens */
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}
+
+/* Styles for main headings */
+h1 {
+  color: #004d40; /* Dark green color */
+  font-family: 'Courier New', Courier, monospace; /* Tennis scoreboard font */
+  font-size: 3em; /* Increase font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  margin-bottom: 20px; /* Add space below */
+}
+
+/* Styles for secondary headings */
+h2 {
+  color: #00796b; /* Teal color */
+  font-size: 2em; /* Increase font size */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  margin-bottom: 15px; /* Add space below */
+}
